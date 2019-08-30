@@ -5,7 +5,7 @@ See: The offcial crosstool-ng [documentation](https://crosstool-ng.github.io/doc
 
 crosstool-ng compatability: version 1.24.0
 
-tested on: GT-N5110 SMDK-4412 kernel build
+tested on: GT-N5110 SMDK-4412 (3.0.101) Lineage 14.1 kernel build
 
 Flags: 
 * CT_ARCH="arm"
