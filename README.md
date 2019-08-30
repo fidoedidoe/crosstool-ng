@@ -5,4 +5,17 @@ See: The offcial crosstool-ng [documentation](https://crosstool-ng.github.io/doc
 
 crosstool-ng compatability: version 1.24.0
 
-See individual branch README for more details. 
+tested on: GT-N5110
+
+Flags: 
+* CT_ARCH="arm"
+* CT_ARCH_ARM=y
+* CT_ARCH_ARCH="armv7-a" 
+* CT_ARCH_CPU="" 
+* CT_ARCH_TUNE="cortex-a9" 
+* CT_ARCH_FPU="neon" 
+* CT_ARCH_FLOAT="softfp" 
+* CT_ARCH_FLOAT_SOFTFP=y 
+* CT_ARCH_ARM_MODE="arm" 
+* CT_ARCH_ARM_MODE_ARM=y
+* CT_LINUX_VERSION="3.10.108" (crashed when compiling for earlier versions such as 3.0.101)
