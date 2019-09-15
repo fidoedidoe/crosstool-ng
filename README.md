@@ -13,5 +13,5 @@ Flags:
 * CT_ARCH_ARCH="armv7-a"
 * CT_ARCH_TUNE="cortex-a7"
 * CT_ARCH_FPU="neon-vfpv4"
-* CT_ARCH_FLOAT="hard" 
+* CT_ARCH_FLOAT="softfp" 
 * CT_LINUX_VERSION="3.10.108" (crashed when compiling for earlier versions such as 3.0.101)
