@@ -5,11 +5,11 @@ See: The offcial crosstool-ng [documentation](https://crosstool-ng.github.io/doc
 
 crosstool-ng compatability: version 1.24.0
 
-tested on: GT-N5110 SMDK-4412 (3.0.101) Lineage 14.1 kernel build
+tested on: S8+ dream2lte (4.14.171) kernel build
 
 Flags: 
 * CT_ARCH="arm"
-* CT_ARCH_CPU="cortex-a9"
-* CT_ARCH_FPU="neon"
-* CT_ARCH_FLOAT="softfp"
-* CT_LINUX_VERSION="3.10.108" (crashed when compiling for earlier versions such as 3.0.101)
+* CT_ARCH_CPU=""
+* CT_ARCH_FPU=""
+* CT_ARCH_FLOAT=""
+* CT_LINUX_VERSION="4.14.171"
