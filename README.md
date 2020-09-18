@@ -8,7 +8,7 @@ crosstool-ng compatability: version 1.24.0
 tested on: S8+ dream2lte (4.14.171) kernel build
 
 Flags: 
-* CT_ARCH="arm"
+* CT_ARCH="arm64"
 * CT_ARCH_CPU=""
 * CT_ARCH_FPU=""
 * CT_ARCH_FLOAT=""
